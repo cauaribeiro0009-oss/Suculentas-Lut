@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/verde-vivo/"
+title = "Verde Vivo"
+version = "1.0.0"
+id = "artifacts/verde-vivo"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/verde-vivo/" ]
+localPort = 22901
+
+[services.development]
+run = "pnpm --filter @workspace/verde-vivo run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/verde-vivo", "run", "build" ]
+publicDir = "artifacts/verde-vivo/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22901"
+BASE_PATH = "/verde-vivo/"
