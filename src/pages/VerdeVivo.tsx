@@ -197,7 +197,7 @@ export function VerdeVivo() {
           </FadeIn>
           <FadeIn delay={400}>
             <p className="text-lg md:text-2xl font-light mb-10 text-white/95 max-w-2xl mx-auto drop-shadow-md">
-              Plantas que transforman espacios y mejoran tu bienestar. Curadas cuidadosamente para ti.
+              Plantas que transforman espacios y mejoran tu bienestar. Cuidadas especialmente para ti.
             </p>
           </FadeIn>
           <FadeIn delay={600} className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -264,9 +264,9 @@ export function VerdeVivo() {
                 loading="lazy"
               />
               <div className="absolute -bottom-8 -left-8 md:bottom-8 md:-left-12 bg-white p-6 md:p-8 shadow-xl rounded-tr-3xl rounded-bl-3xl max-w-[280px]">
-                <p className="font-serif text-2xl text-[#2E5E3E] mb-1">Myriam Cartes</p>
-                <p className="text-sm text-[#C9794A] font-medium mb-3">Fundadora & Botánica</p>
-                <p className="text-sm text-[#20362A]/60 italic">"Mi misión es devolver el verde a nuestras vidas cotidianas."</p>
+                <p className="font-serif text-2xl text-[#2E5E3E] mb-1">Myriam Cartes y Ernesto Cornejo</p>
+                <p className="text-sm text-[#C9794A] font-medium mb-3">Fundadores</p>
+                <p className="text-sm text-[#20362A]/60 italic">"Nuestra mision es devolver el verde a nuestras vidas cotidianas."</p>
               </div>
             </FadeIn>
           </div>
